@@ -20,3 +20,6 @@ Since the 3rd user being entered is a paying user, he gets to cut in line ahead 
 
 The time interval between entries has been shortened to 5 seconds for easy visualisation, it can be easily modified by changing a constant at the top.
 
+
+Execute using: `python3 init.py`
+P.S. Here's a small sudoku solver which utilises a more object-oriented approach: https://github.com/tahanemat/sudoku-solver
