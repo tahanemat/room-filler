@@ -1,12 +1,15 @@
 # room-filler
+
 A simple app that shows queueing of multiple users to enter a specific room
 
-The question:
+# The question:
+
 We have 100 chat rooms of a maximum of 7 users in progress. as new users come in we like to build a queue that can keep track of what time the most recent user joined the chat and wait at least 30 seconds till the next new user can join.
 
 The queue will also put paid users ahead of the free users if rooms are about to get full.
 
-My solution:
+# My solution:
+
 I've utilised asyncIO to achieve this solution, ofcourse there are multiple ways to do it (such as Redis).
 Users are represented as 1 or 2 (non-paying and paying respectively).
 I've initialized 100 rooms with 4 users each and all the rooms have the same latest entry times set (datetime.now()).
