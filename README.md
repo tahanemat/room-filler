@@ -22,4 +22,5 @@ The time interval between entries has been shortened to 5 seconds for easy visua
 
 
 Execute using: `python3 init.py`
+
 P.S. Here's a small sudoku solver which utilises a more object-oriented approach: https://github.com/tahanemat/sudoku-solver
